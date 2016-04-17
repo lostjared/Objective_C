@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Transfer-Tool_GUI' target in the 'Transfer-Tool_GUI' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

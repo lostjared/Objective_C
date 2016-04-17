@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FEFEFA718CB795300B78CFC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FEFEFA618CB795300B78CFC /* Cocoa.framework */; };
+		7FEFEFB118CB795300B78CFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FEFEFAF18CB795300B78CFC /* InfoPlist.strings */; };
+		7FEFEFB318CB795300B78CFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEFEFB218CB795300B78CFC /* main.m */; };
+		7FEFEFB718CB795300B78CFC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7FEFEFB518CB795300B78CFC /* Credits.rtf */; };
+		7FEFEFBA18CB795300B78CFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEFEFB918CB795300B78CFC /* AppDelegate.m */; };
+		7FEFEFBD18CB795300B78CFC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FEFEFBB18CB795300B78CFC /* MainMenu.xib */; };
+		7FEFEFBF18CB795300B78CFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FEFEFBE18CB795300B78CFC /* Images.xcassets */; };
+		7FEFEFC618CB795300B78CFC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FEFEFC518CB795300B78CFC /* XCTest.framework */; };
+		7FEFEFC718CB795300B78CFC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FEFEFA618CB795300B78CFC /* Cocoa.framework */; };
+		7FEFEFCF18CB795300B78CFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FEFEFCD18CB795300B78CFC /* InfoPlist.strings */; };
+		7FEFEFD118CB795300B78CFC /* iSpeedReadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEFEFD018CB795300B78CFC /* iSpeedReadTests.m */; };
+		7FEFEFDC18CB7F2000B78CFC /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEFEFDB18CB7F2000B78CFC /* AppController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FEFEFC818CB795300B78CFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FEFEF9B18CB795200B78CFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FEFEFA218CB795300B78CFC;
+			remoteInfo = iSpeedRead;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7FEFEFA318CB795300B78CFC /* iSpeedRead.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSpeedRead.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FEFEFA618CB795300B78CFC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7FEFEFA918CB795300B78CFC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		7FEFEFAA18CB795300B78CFC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7FEFEFAB18CB795300B78CFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7FEFEFAE18CB795300B78CFC /* iSpeedRead-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iSpeedRead-Info.plist"; sourceTree = "<group>"; };
+		7FEFEFB018CB795300B78CFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7FEFEFB218CB795300B78CFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FEFEFB418CB795300B78CFC /* iSpeedRead-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iSpeedRead-Prefix.pch"; sourceTree = "<group>"; };
+		7FEFEFB618CB795300B78CFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		7FEFEFB818CB795300B78CFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7FEFEFB918CB795300B78CFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7FEFEFBC18CB795300B78CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7FEFEFBE18CB795300B78CFC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7FEFEFC418CB795300B78CFC /* iSpeedReadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iSpeedReadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FEFEFC518CB795300B78CFC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7FEFEFCC18CB795300B78CFC /* iSpeedReadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iSpeedReadTests-Info.plist"; sourceTree = "<group>"; };
+		7FEFEFCE18CB795300B78CFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7FEFEFD018CB795300B78CFC /* iSpeedReadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iSpeedReadTests.m; sourceTree = "<group>"; };
+		7FEFEFDA18CB7F2000B78CFC /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		7FEFEFDB18CB7F2000B78CFC /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FEFEFA018CB795300B78CFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FEFEFA718CB795300B78CFC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FEFEFC118CB795300B78CFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FEFEFC718CB795300B78CFC /* Cocoa.framework in Frameworks */,
+				7FEFEFC618CB795300B78CFC /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FEFEF9A18CB795200B78CFC = {
+			isa = PBXGroup;
+			children = (
+				7FEFEFAC18CB795300B78CFC /* iSpeedRead */,
+				7FEFEFCA18CB795300B78CFC /* iSpeedReadTests */,
+				7FEFEFA518CB795300B78CFC /* Frameworks */,
+				7FEFEFA418CB795300B78CFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FEFEFA418CB795300B78CFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FEFEFA318CB795300B78CFC /* iSpeedRead.app */,
+				7FEFEFC418CB795300B78CFC /* iSpeedReadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FEFEFA518CB795300B78CFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FEFEFA618CB795300B78CFC /* Cocoa.framework */,
+				7FEFEFC518CB795300B78CFC /* XCTest.framework */,
+				7FEFEFA818CB795300B78CFC /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FEFEFA818CB795300B78CFC /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FEFEFA918CB795300B78CFC /* AppKit.framework */,
+				7FEFEFAA18CB795300B78CFC /* CoreData.framework */,
+				7FEFEFAB18CB795300B78CFC /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7FEFEFAC18CB795300B78CFC /* iSpeedRead */ = {
+			isa = PBXGroup;
+			children = (
+				7FEFEFB818CB795300B78CFC /* AppDelegate.h */,
+				7FEFEFB918CB795300B78CFC /* AppDelegate.m */,
+				7FEFEFBB18CB795300B78CFC /* MainMenu.xib */,
+				7FEFEFDA18CB7F2000B78CFC /* AppController.h */,
+				7FEFEFDB18CB7F2000B78CFC /* AppController.m */,
+				7FEFEFBE18CB795300B78CFC /* Images.xcassets */,
+				7FEFEFAD18CB795300B78CFC /* Supporting Files */,
+			);
+			path = iSpeedRead;
+			sourceTree = "<group>";
+		};
+		7FEFEFAD18CB795300B78CFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FEFEFAE18CB795300B78CFC /* iSpeedRead-Info.plist */,
+				7FEFEFAF18CB795300B78CFC /* InfoPlist.strings */,
+				7FEFEFB218CB795300B78CFC /* main.m */,
+				7FEFEFB418CB795300B78CFC /* iSpeedRead-Prefix.pch */,
+				7FEFEFB518CB795300B78CFC /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FEFEFCA18CB795300B78CFC /* iSpeedReadTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FEFEFD018CB795300B78CFC /* iSpeedReadTests.m */,
+				7FEFEFCB18CB795300B78CFC /* Supporting Files */,
+			);
+			path = iSpeedReadTests;
+			sourceTree = "<group>";
+		};
+		7FEFEFCB18CB795300B78CFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FEFEFCC18CB795300B78CFC /* iSpeedReadTests-Info.plist */,
+				7FEFEFCD18CB795300B78CFC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FEFEFA218CB795300B78CFC /* iSpeedRead */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FEFEFD418CB795300B78CFC /* Build configuration list for PBXNativeTarget "iSpeedRead" */;
+			buildPhases = (
+				7FEFEF9F18CB795300B78CFC /* Sources */,
+				7FEFEFA018CB795300B78CFC /* Frameworks */,
+				7FEFEFA118CB795300B78CFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iSpeedRead;
+			productName = iSpeedRead;
+			productReference = 7FEFEFA318CB795300B78CFC /* iSpeedRead.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FEFEFC318CB795300B78CFC /* iSpeedReadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FEFEFD718CB795300B78CFC /* Build configuration list for PBXNativeTarget "iSpeedReadTests" */;
+			buildPhases = (
+				7FEFEFC018CB795300B78CFC /* Sources */,
+				7FEFEFC118CB795300B78CFC /* Frameworks */,
+				7FEFEFC218CB795300B78CFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FEFEFC918CB795300B78CFC /* PBXTargetDependency */,
+			);
+			name = iSpeedReadTests;
+			productName = iSpeedReadTests;
+			productReference = 7FEFEFC418CB795300B78CFC /* iSpeedReadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FEFEF9B18CB795200B78CFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Jared Bruni";
+				TargetAttributes = {
+					7FEFEFC318CB795300B78CFC = {
+						TestTargetID = 7FEFEFA218CB795300B78CFC;
+					};
+				};
+			};
+			buildConfigurationList = 7FEFEF9E18CB795200B78CFC /* Build configuration list for PBXProject "iSpeedRead" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FEFEF9A18CB795200B78CFC;
+			productRefGroup = 7FEFEFA418CB795300B78CFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FEFEFA218CB795300B78CFC /* iSpeedRead */,
+				7FEFEFC318CB795300B78CFC /* iSpeedReadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FEFEFA118CB795300B78CFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FEFEFB118CB795300B78CFC /* InfoPlist.strings in Resources */,
+				7FEFEFBF18CB795300B78CFC /* Images.xcassets in Resources */,
+				7FEFEFB718CB795300B78CFC /* Credits.rtf in Resources */,
+				7FEFEFBD18CB795300B78CFC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FEFEFC218CB795300B78CFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FEFEFCF18CB795300B78CFC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FEFEF9F18CB795300B78CFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FEFEFBA18CB795300B78CFC /* AppDelegate.m in Sources */,
+				7FEFEFDC18CB7F2000B78CFC /* AppController.m in Sources */,
+				7FEFEFB318CB795300B78CFC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FEFEFC018CB795300B78CFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FEFEFD118CB795300B78CFC /* iSpeedReadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FEFEFC918CB795300B78CFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FEFEFA218CB795300B78CFC /* iSpeedRead */;
+			targetProxy = 7FEFEFC818CB795300B78CFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7FEFEFAF18CB795300B78CFC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FEFEFB018CB795300B78CFC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7FEFEFB518CB795300B78CFC /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FEFEFB618CB795300B78CFC /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		7FEFEFBB18CB795300B78CFC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FEFEFBC18CB795300B78CFC /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		7FEFEFCD18CB795300B78CFC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FEFEFCE18CB795300B78CFC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FEFEFD218CB795300B78CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7FEFEFD318CB795300B78CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7FEFEFD518CB795300B78CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iSpeedRead/iSpeedRead-Prefix.pch";
+				INFOPLIST_FILE = "iSpeedRead/iSpeedRead-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7FEFEFD618CB795300B78CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iSpeedRead/iSpeedRead-Prefix.pch";
+				INFOPLIST_FILE = "iSpeedRead/iSpeedRead-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7FEFEFD818CB795300B78CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iSpeedRead.app/Contents/MacOS/iSpeedRead";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iSpeedRead/iSpeedRead-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iSpeedReadTests/iSpeedReadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7FEFEFD918CB795300B78CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iSpeedRead.app/Contents/MacOS/iSpeedRead";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iSpeedRead/iSpeedRead-Prefix.pch";
+				INFOPLIST_FILE = "iSpeedReadTests/iSpeedReadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FEFEF9E18CB795200B78CFC /* Build configuration list for PBXProject "iSpeedRead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FEFEFD218CB795300B78CFC /* Debug */,
+				7FEFEFD318CB795300B78CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FEFEFD418CB795300B78CFC /* Build configuration list for PBXNativeTarget "iSpeedRead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FEFEFD518CB795300B78CFC /* Debug */,
+				7FEFEFD618CB795300B78CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7FEFEFD718CB795300B78CFC /* Build configuration list for PBXNativeTarget "iSpeedReadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FEFEFD818CB795300B78CFC /* Debug */,
+				7FEFEFD918CB795300B78CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FEFEF9B18CB795200B78CFC /* Project object */;
+}

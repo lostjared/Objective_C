@@ -1,0 +1,271 @@
+// !$*UTF8*$!
+{
+	256AC3D80F4B6AC300CF3369 /* AlphaFlameHD_LauncherAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1651, 677}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 356}";
+		};
+	};
+	256AC3D90F4B6AC300CF3369 /* AlphaFlameHD_LauncherAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1651, 677}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 423}";
+		};
+	};
+	256AC3F00F4B6AF500CF3369 /* AlphaFlameHD_Launcher_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1651, 977}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 173}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 7FDADECD1340E8A100AAC256 /* AlphaFlameHD_Launcher */;
+		activeTarget = 8D1107260486CEB800E47090 /* AlphaFlameHD_Launcher */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* AlphaFlameHD_Launcher */,
+		);
+		codeSenseManager = 7FDADEDB1340E8C200AAC256 /* Code sense */;
+		executables = (
+			7FDADECD1340E8A100AAC256 /* AlphaFlameHD_Launcher */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = 1;
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1473,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1433,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 325443433;
+			PBXWorkspaceStateSaveDate = 325443433;
+		};
+		perUserProjectItems = {
+			7FDADFE01341276000AAC256 /* PBXTextBookmark */ = 7FDADFE01341276000AAC256 /* PBXTextBookmark */;
+			7FDADFE11341276000AAC256 /* PBXTextBookmark */ = 7FDADFE11341276000AAC256 /* PBXTextBookmark */;
+			7FDADFE21341276000AAC256 /* PBXTextBookmark */ = 7FDADFE21341276000AAC256 /* PBXTextBookmark */;
+			7FDADFFF13415E6700AAC256 /* PlistBookmark */ = 7FDADFFF13415E6700AAC256 /* PlistBookmark */;
+			7FEC72A71365DF7B00676AD5 /* PBXTextBookmark */ = 7FEC72A71365DF7B00676AD5 /* PBXTextBookmark */;
+			7FEC72F113666AD300676AD5 /* PBXTextBookmark */ = 7FEC72F113666AD300676AD5 /* PBXTextBookmark */;
+			7FEC733113667AF300676AD5 /* PBXTextBookmark */ = 7FEC733113667AF300676AD5 /* PBXTextBookmark */;
+			7FEC733213667AF300676AD5 /* PBXTextBookmark */ = 7FEC733213667AF300676AD5 /* PBXTextBookmark */;
+			7FEC733313667AF300676AD5 /* PlistBookmark */ = 7FEC733313667AF300676AD5 /* PlistBookmark */;
+		};
+		sourceControlManager = 7FDADEDA1340E8C200AAC256 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1651, 984}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 266}";
+			sepNavWindowFrame = "{{61, 95}, {764, 1036}}";
+		};
+	};
+	7FDADECD1340E8A100AAC256 /* AlphaFlameHD_Launcher */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = AlphaFlameHD_Launcher;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	7FDADEDA1340E8C200AAC256 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	7FDADEDB1340E8C200AAC256 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	7FDADEDF1340E8D500AAC256 /* AppController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1651, 984}}";
+			sepNavSelRange = "{442, 0}";
+			sepNavVisRange = "{0, 603}";
+			sepNavWindowFrame = "{{38, 116}, {764, 1036}}";
+		};
+	};
+	7FDADEE01340E8D500AAC256 /* AppController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1651, 1976}}";
+			sepNavSelRange = "{2640, 0}";
+			sepNavVisRange = "{1580, 2516}";
+			sepNavWindowFrame = "{{15, 137}, {764, 1036}}";
+		};
+	};
+	7FDADFE01341276000AAC256 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* AlphaFlameHD_LauncherAppDelegate.m */;
+		name = "AlphaFlameHD_LauncherAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 423;
+		vrLoc = 0;
+	};
+	7FDADFE11341276000AAC256 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* AlphaFlameHD_LauncherAppDelegate.h */;
+		name = "AlphaFlameHD_LauncherAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 356;
+		vrLoc = 0;
+	};
+	7FDADFE21341276000AAC256 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3F00F4B6AF500CF3369 /* AlphaFlameHD_Launcher_Prefix.pch */;
+		name = "AlphaFlameHD_Launcher_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 173;
+		vrLoc = 0;
+	};
+	7FDADFFF13415E6700AAC256 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* AlphaFlameHD_Launcher-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = "/Users/jared/code/AlphaFlameHD_Launcher/AlphaFlameHD_Launcher-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	7FEC72A71365DF7B00676AD5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 266;
+		vrLoc = 0;
+	};
+	7FEC72F113666AD300676AD5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7FDADEDF1340E8D500AAC256 /* AppController.h */;
+		name = "AppController.h: 20";
+		rLen = 0;
+		rLoc = 442;
+		rType = 0;
+		vrLen = 603;
+		vrLoc = 0;
+	};
+	7FEC733113667AF300676AD5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7FDADEE01340E8D500AAC256 /* AppController.m */;
+		name = "AppController.m: 111";
+		rLen = 0;
+		rLoc = 2640;
+		rType = 0;
+		vrLen = 2516;
+		vrLoc = 1580;
+	};
+	7FEC733213667AF300676AD5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7FDADEE01340E8D500AAC256 /* AppController.m */;
+		name = "AppController.m: 111";
+		rLen = 0;
+		rLoc = 2640;
+		rType = 0;
+		vrLen = 2516;
+		vrLoc = 1580;
+	};
+	7FEC733313667AF300676AD5 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* AlphaFlameHD_Launcher-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = "/Users/jared/code/Objective-C/trunk/apps/AlphaFlameHD_Launcher/AlphaFlameHD_Launcher-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	8D1107260486CEB800E47090 /* AlphaFlameHD_Launcher */ = {
+		activeExec = 0;
+		executables = (
+			7FDADECD1340E8A100AAC256 /* AlphaFlameHD_Launcher */,
+		);
+	};
+	8D1107310486CEB800E47090 /* AlphaFlameHD_Launcher-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{84, 74}, {764, 1036}}";
+		};
+	};
+}

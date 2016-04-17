@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'exp_parse' target in the 'exp_parse' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
