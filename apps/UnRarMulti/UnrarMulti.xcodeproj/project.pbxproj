@@ -13,10 +13,10 @@
 		7FEBFD181BCC32D400DBD5BF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FEBFD161BCC32D400DBD5BF /* MainMenu.xib */; };
 		7FEBFD231BCC32D500DBD5BF /* UnrarMultiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEBFD221BCC32D500DBD5BF /* UnrarMultiTests.m */; };
 		7FEBFD2E1BCC32D500DBD5BF /* UnrarMultiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEBFD2D1BCC32D500DBD5BF /* UnrarMultiUITests.m */; };
-		7FEBFD3C1BCC331100DBD5BF /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7FEBFD3B1BCC331100DBD5BF /* AppController.mm */; settings = {ASSET_TAGS = (); }; };
-		7FEBFD441BCC553000DBD5BF /* rar in Resources */ = {isa = PBXBuildFile; fileRef = 7FEBFD421BCC553000DBD5BF /* rar */; settings = {ASSET_TAGS = (); }; };
-		7FEBFD451BCC553000DBD5BF /* unrar in Resources */ = {isa = PBXBuildFile; fileRef = 7FEBFD431BCC553000DBD5BF /* unrar */; settings = {ASSET_TAGS = (); }; };
-		7FEBFD471BCC553E00DBD5BF /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 7FEBFD461BCC553E00DBD5BF /* icon.icns */; settings = {ASSET_TAGS = (); }; };
+		7FEBFD3C1BCC331100DBD5BF /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7FEBFD3B1BCC331100DBD5BF /* AppController.mm */; };
+		7FEBFD441BCC553000DBD5BF /* rar in Resources */ = {isa = PBXBuildFile; fileRef = 7FEBFD421BCC553000DBD5BF /* rar */; };
+		7FEBFD451BCC553000DBD5BF /* unrar in Resources */ = {isa = PBXBuildFile; fileRef = 7FEBFD431BCC553000DBD5BF /* unrar */; };
+		7FEBFD471BCC553E00DBD5BF /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 7FEBFD461BCC553E00DBD5BF /* icon.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -208,7 +208,7 @@
 		7FEBFD031BCC32D400DBD5BF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Jared Bruni";
 				TargetAttributes = {
 					7FEBFD0A1BCC32D400DBD5BF = {
@@ -340,8 +340,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -363,7 +365,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -383,8 +385,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -400,7 +404,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};

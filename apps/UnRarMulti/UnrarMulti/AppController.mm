@@ -19,6 +19,7 @@
 #include<cstdio>
 #include<cstdlib>
 #include<unistd.h>
+#include<regex>
 
 void extract_paths(NSInteger state, id s, std::string output_path, std::vector<std::string> &files);
 
@@ -47,22 +48,19 @@ void add_directory(std::string path, std::vector<std::string> &files) {
             continue;
         }
         if(f_info.length()>0 && f_info[0] != '.') {
-            int part1_find = (int) fullpath.find("1.rar");
-            int rar = (int) fullpath.find(".rar");
-            int prar = (int) fullpath.find("part");
-            int prarx = (int) fullpath.find("part1.rar");
-            int prarx2 = (int) fullpath.find("part01.rar");
-            int prarx3 = (int) fullpath.find("part001.rar");
-            int prarx4 = (int) fullpath.find("part0001.rar");
-            int prarx5 = (int) fullpath.find("part00001.rar");
-            if(part1_find != -1 && prar != -1 && ( (prarx != -1) || (prarx2 != -1) || (prarx3 != -1) || (prarx4 !=-1) || (prarx5 != -1))) {
-                files.push_back(fullpath);
-                std::cout << "added: " << fullpath << "\n";
-            }
-            
-            if(rar != -1 && prar == -1) {
-                files.push_back(fullpath);
-                std::cout << "added: " << fullpath << "\n";
+            std::string ext;
+            auto pos = f_info.rfind(".");
+            if(pos != std::string::npos) {
+                std::string ext = f_info.substr(pos, f_info.length()-pos);
+                std::string filename = f_info.substr(0, pos);
+                if(ext == ".rar") {
+                    std::regex r(R"(^((?!\.part(?!0*1\.rar$)\d+\.rar$).)*\.(?:rar|r?0*1)$)");
+                    if(std::regex_search(f_info, r) == true) {
+                        std::cout << "added: " << fullpath << "\n";
+                        files.push_back(fullpath);
+                        continue;
+                    }
+                }
             }
         }
     }
