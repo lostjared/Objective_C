@@ -34,7 +34,7 @@
 - (void) threadProc: (id) sender {
     __block std::string value;
     value = procLines([self.string_value UTF8String]);
-    dispatch_async(dispatch_get_main_queue(), ^{
+    dispatch_sync(dispatch_get_main_queue(), ^{
         NSString *val = [NSString stringWithUTF8String: value.c_str()];
         [self.text_output setString: val];
         [self.progress stopAnimation:self];

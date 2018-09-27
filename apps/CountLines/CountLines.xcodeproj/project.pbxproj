@@ -105,8 +105,8 @@
 			children = (
 				7F88744E215D23870090978F /* AppDelegate.h */,
 				7F88747D215D23EB0090978F /* Controller.h */,
-				7F88747F215D28B40090978F /* CountLines.cpp */,
 				7F887480215D28B40090978F /* CountLines.hpp */,
+				7F88747F215D28B40090978F /* CountLines.cpp */,
 				7F88744F215D23870090978F /* AppDelegate.m */,
 				7F88747B215D23CC0090978F /* Controller.mm */,
 				7F887451215D23880090978F /* Assets.xcassets */,

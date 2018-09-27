@@ -19,7 +19,6 @@
         </customObject>
         <customObject id="Mco-JA-Sgd" customClass="Controller">
             <connections>
-                <outlet property="output_view" destination="wzu-87-qGg" id="73Z-g4-Zlt"/>
                 <outlet property="progress" destination="CYh-fm-PAm" id="Hil-ms-EVW"/>
                 <outlet property="text_output" destination="wzu-87-qGg" id="s5s-Cn-gmS"/>
             </connections>
