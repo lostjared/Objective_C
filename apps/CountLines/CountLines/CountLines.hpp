@@ -22,14 +22,16 @@
 #include<cctype>
 #include<regex>
 #include<sstream>
+#import<Cocoa/Cocoa.h>
 
-std::string procLines(std::string path);
+std::string procLines(NSTextField *field, std::string path);
 void add_directory(std::string path, std::vector<std::string> &files);
 std::string toLower(const std::string &s);
 extern const char *file_ext[];
-unsigned long countLines(std::vector<std::string> &v, unsigned long &blank);
+unsigned long countLines(NSTextField *field, std::vector<std::string> &v, unsigned long &blank);
 unsigned long countFile(std::string filename, unsigned long &blank);
 bool lineEmpty(const std::string &line);
 extern std::ostringstream output;
+
 
 #endif /* CountLines_hpp */

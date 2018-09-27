@@ -15,13 +15,12 @@
 @interface Controller : NSObject {
     NSThread *value_thread;
 }
-
+@property IBOutlet NSTextField *text_field;
 @property IBOutlet NSTextView *text_output;
 @property NSString *string_value;
 @property IBOutlet NSProgressIndicator *progress;
 - (IBAction) scanFiles: (id) sender;
 - (void) threadProc: (id) sender;
-
 @end
 
 #endif /* Controller_h */

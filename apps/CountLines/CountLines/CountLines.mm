@@ -11,15 +11,18 @@
 std::ostringstream output;
 const char *file_ext[] = { ".cpp", ".h", ".hpp",".c",".cc", ".cxx",".m", ".mm", 0 };
 
-std::string procLines(std::string path) {
+std::string procLines(NSTextField *field, std::string path) {
     output.str("");
     std::vector<std::string> files;
     add_directory(path, files);
     unsigned long count = 0;
     if(files.size() > 0) {
         unsigned long blank = 0;
-        count = countLines(files, blank);
+        count = countLines(field, files, blank);
         output << files.size() << " file(s) contain: " << count << " lines and " << blank << "  blank lines for a total of " << blank+count << ".\n";
+        dispatch_sync(dispatch_get_main_queue(), ^{
+            [field setStringValue:@"Complete"];
+        });
         return output.str();
     }
     return " Could not find any files...";
@@ -54,10 +57,14 @@ unsigned long countFile(std::string filename, unsigned long &blank) {
     return counter;
 }
 
-unsigned long countLines(std::vector<std::string> &v, unsigned long &blank) {
+unsigned long countLines(NSTextField *field, std::vector<std::string> &v, unsigned long &blank) {
     unsigned long value = 0;
     for(unsigned int i = 0; i < v.size(); ++i) {
         unsigned long blank_lines = 0;
+        dispatch_sync(dispatch_get_main_queue(), ^{
+            NSString *str_value = [NSString stringWithUTF8String: v[i].c_str()];
+            [field setStringValue:str_value];
+        });
         unsigned long line_count = countFile(v[i], blank_lines);
         blank += blank_lines;
         if(line_count > 0) {

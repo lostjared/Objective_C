@@ -14,6 +14,7 @@
 @synthesize text_output;
 @synthesize string_value;
 @synthesize progress;
+@synthesize text_field;
 
 - (IBAction) scanFiles: (id) sender {
     NSOpenPanel *panel = [NSOpenPanel openPanel];
@@ -33,7 +34,7 @@
 
 - (void) threadProc: (id) sender {
     __block std::string value;
-    value = procLines([self.string_value UTF8String]);
+    value = procLines(text_field, [self.string_value UTF8String]);
     dispatch_sync(dispatch_get_main_queue(), ^{
         NSString *val = [NSString stringWithUTF8String: value.c_str()];
         [self.text_output setString: val];
