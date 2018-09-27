@@ -14,7 +14,7 @@
 		7F887463215D23890090978F /* CountLinesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F887462215D23890090978F /* CountLinesTests.m */; };
 		7F88746E215D23890090978F /* CountLinesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F88746D215D23890090978F /* CountLinesUITests.m */; };
 		7F88747C215D23CC0090978F /* Controller.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7F88747B215D23CC0090978F /* Controller.mm */; };
-		7F887481215D28B40090978F /* CountLines.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F88747F215D28B40090978F /* CountLines.cpp */; };
+		7F887481215D28B40090978F /* CountLines.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7F88747F215D28B40090978F /* CountLines.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +51,7 @@
 		7F88746F215D23890090978F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F88747B215D23CC0090978F /* Controller.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Controller.mm; sourceTree = "<group>"; };
 		7F88747D215D23EB0090978F /* Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
-		7F88747F215D28B40090978F /* CountLines.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CountLines.cpp; sourceTree = "<group>"; };
+		7F88747F215D28B40090978F /* CountLines.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CountLines.mm; sourceTree = "<group>"; };
 		7F887480215D28B40090978F /* CountLines.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CountLines.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,7 +106,7 @@
 				7F88744E215D23870090978F /* AppDelegate.h */,
 				7F88747D215D23EB0090978F /* Controller.h */,
 				7F887480215D28B40090978F /* CountLines.hpp */,
-				7F88747F215D28B40090978F /* CountLines.cpp */,
+				7F88747F215D28B40090978F /* CountLines.mm */,
 				7F88744F215D23870090978F /* AppDelegate.m */,
 				7F88747B215D23CC0090978F /* Controller.mm */,
 				7F887451215D23880090978F /* Assets.xcassets */,
@@ -268,7 +268,7 @@
 				7F887458215D23880090978F /* main.m in Sources */,
 				7F887450215D23870090978F /* AppDelegate.m in Sources */,
 				7F88747C215D23CC0090978F /* Controller.mm in Sources */,
-				7F887481215D28B40090978F /* CountLines.cpp in Sources */,
+				7F887481215D28B40090978F /* CountLines.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
