@@ -9,5 +9,9 @@
     [view1 setString: [NSString stringWithUTF8String:val.c_str()]];
 }
 
+- (void) awakeFromNib {
+    [self loadInfo: self];
+}
+
 @end
 
